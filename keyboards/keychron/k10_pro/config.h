@@ -25,7 +25,9 @@
     { A8 }
 
 /* Caps lock LED Pin */
-#define LED_CAPS_LOCK_PIN A7
+#define LED_CAPS_LOCK_PIN H3
+/* Num lock LED Pin */
+#define LED_NUM_LOCK_PIN A7
 #define LED_PIN_ON_STATE 1
 
 /* Increase I2C speed to 1000 KHz */
@@ -51,8 +53,6 @@
 
 #    define HOST_DEVICES_COUNT 3
 
-#    define HOST_LED_PIN_LIST \
-        { H3, H3, H3 }
 #    define HOST_LED_PIN_ON_STATE 1
 
 #    if defined(RGB_MATRIX_ENABLE) || defined(LED_MATRIX_ENABLE)

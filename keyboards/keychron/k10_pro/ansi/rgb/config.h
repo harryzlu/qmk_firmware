@@ -33,8 +33,8 @@
 #    define RGB_MATRIX_BRIGHTNESS_TURN_OFF_VAL 32
 
 /* Indication led */
-#    define CAPS_LOCK_INDEX 62
-#    define NUM_LOCK_INDEX 37
+// #    define CAPS_LOCK_INDEX 62
+// #    define NUM_LOCK_INDEX 37
 
 #    ifdef VIA_ENABLE
 #        define VIA_QMK_RGBLIGHT_ENABLE
